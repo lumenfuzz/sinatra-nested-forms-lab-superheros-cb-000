@@ -14,7 +14,6 @@ class App < Sinatra::Base
       @members = [
         { name: params[:member1_name] }
       ]
-      binding.pry
       erb :result
     end
 
