@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Your Superhero Team</title>
+  </head>
+  <body>
+      <h1>Your Team</h1>
+      <h2>Team Name: <%= @team["name"] %></h3>
+      <h2>Team Motto: <%= @team["motto"] %></h3>
+      <h2>Member 1</h2>
+      <h3>Hero Name: <%= @members[0][:name] %></h3>
+      <h3>Hero Power: <%= @members[0][:power] %></h3>
+      <h3>Hero Biography: <%= @members[0][:bio] %></h3>
+      <h2>Member 2</h2>
+      <h3>Hero Name: <%= @members[1][:name] %></h3>
+      <h3>Hero Power: <%= @members[1][:power] %></h3>
+      <h3>Hero Biography: <%= @members[1][:bio] %></h3>
+      <h2>Member 3</h2>
+      <h3>Hero Name: <%= @members[2][:name] %></h3>
+      <h3>Hero Power: <%= @members[2][:power] %></h3>
+      <h3>Hero Biography: <%= @members[2][:bio] %></h3>
+  </body>
+</html>
