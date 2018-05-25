@@ -12,7 +12,7 @@ class App < Sinatra::Base
     post '/teams' do
       @team = params[:team]
       @members = [
-        { name: params[:member1_name] }
+        { name: params[:member1_name], power: params[:member1_power], bio: params[:member1_bio] }
       ]
       erb :result
     end
